@@ -1,0 +1,18 @@
+/* jcarousel */
+
+.jcarousel-skin-default .jcarousel-container-horizontal {
+  padding: 35px;
+}
+
+.jcarousel-skin-default .jcarousel-container-horizontal,
+.jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip,
+.jcarousel-skin-default .jcarousel-container-horizontal ul.jcarousel,
+.jcarousel-skin-default .jcarousel-container-horizontal ul.jcarousel li {
+  width: auto;
+  height: auto;
+}
+
+.jcarousel-skin-default .views-field-body {
+  width: 100%;
+  max-width: 400px;
+}
