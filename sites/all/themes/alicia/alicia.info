@@ -8,10 +8,12 @@ screenshot = screenshot.png
 
 ; Regions
 
+; Required by Drupal
 regions[page_top] = Page Top
 regions[content] = Content
 regions[page_bottom] = Page Bottom
 
+; Our own regions
 regions[header] = Header
 regions[highlighted] = Highlighted
 regions[help] = Help
