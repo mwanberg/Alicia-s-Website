@@ -1,22 +1,23 @@
 name = Alicia Williams Theme
 description = HTML5 theme for Alicia Williams' website. Created by <a href="http://www.designbymarlene.com">Marlene Williams</a>
 core = 7.x
-engine = phptemplate
 screenshot = screenshot.png
 ; base theme = omega
 
 
 ; Regions
 
-; Required by Drupal
+; Core regions - disabled
+; regions[highlighted] = Highlighted
+; regions[help] = Help
+
+; Core regions - required
 regions[page_top] = Page Top
 regions[content] = Content
 regions[page_bottom] = Page Bottom
 
-; Our own regions
+; Core regions - enabled
 regions[header] = Header
-regions[highlighted] = Highlighted
-regions[help] = Help
 regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer] = Footer
