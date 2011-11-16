@@ -1,1 +1,193 @@
 /* This file will hold the main styles for your website. */
+
+/* 
+ * General styles
+ */
+
+body {
+  background: #e0e0e0;
+  line-height: 1em;
+  font-family: "Courier New", Courier, mono;
+  font-size: 100%;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background: #e0e0e0;
+  font-family: "Courier New", Courier, mono;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+}
+
+ul.menu a.active {
+  font-weight: bold;
+}
+
+
+/*
+ * Layout-specific styles
+ */
+
+/* Header */
+
+.site-name-slogan {
+  float: none;
+  text-align: center;
+}
+
+h1.site-name,
+h2.site-name {
+  background: #000;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 1em 0 2em 0;
+  padding: .25em 0;
+  text-transform: uppercase;
+}
+
+.site-name a {
+  color: #fff;
+}
+
+
+/* Footer */
+
+.region-footer-first {
+  margin: 0 0 2em 0;
+  text-align: center;
+}
+
+.region-footer-first .block-main-menu .block-title {
+  display: none;
+}
+
+.region-footer-first ul li {
+  line-height: 1.25em;
+  list-style: none;
+  text-align: center;
+}
+
+
+/*
+ * Content-specific
+ */
+
+/* Work view */
+
+.views-field-title-1 {
+  margin: 1em 0 0 0;
+}
+
+.views-field-field-term-portfolio {
+  text-align: right;
+}
+
+.views-field-field-term-portfolio .field-content {
+  background: #000;
+  display: inline;
+  color: #fff;
+  padding: .2em .2em .2em 2em;
+  text-align: right;
+}
+
+
+/* Contact form */
+
+.contact-form {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.contact-form .form-text,
+.contact-form .form-textarea {
+  -webkit-border-radius: 5px;
+  width: 100%;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+input#edit-submit {
+  text-transform: uppercase;
+}
+
+
+/*
+ * Page-specific
+ */
+
+/* Home page */
+
+.front {
+  text-align: center;
+}
+
+.front .site-name {
+  margin: 6em 0 2em 0;
+}
+
+.front .region-footer-first {
+  margin: 4em 0 2em 0;
+  text-align: center;
+}
+
+
+/*
+ * Module-specific
+ */
+ 
+/* jCarousel */
+
+.jcarousel-skin-default .jcarousel-container-horizontal {
+  height: auto;
+  margin: auto;
+  padding: 20px 40px;
+  width: 92% !important;
+}
+
+.jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100%;
+}
+
+.jcarousel-skin-default .jcarousel-item {
+  background: transparent;
+  border: none;
+  height: 45em;
+  margin-right: 10px;
+  width: 420px;
+}
+
+.jcarousel-skin-default .jcarousel-next,
+.jcarousel-skin-default .jcarousel-prev {
+  background: transparent url(../images/jcarousel-arrows-3.png) no-repeat;
+  display: block;
+  height: 18px;
+  top: 670px;
+  width: 17px;
+}
+
+.jcarousel-skin-default .jcarousel-next {
+  background-position: -17px -17px;
+}
+
+.jcarousel-skin-default .jcarousel-next:hover {
+  background-position: -17px 2px;
+}
+
+.jcarousel-skin-default .jcarousel-prev {
+  background-position: 0 -17px;
+}
+
+.jcarousel-skin-default .jcarousel-prev:hover {
+  background-position: 0 2px;
+}
+
+
