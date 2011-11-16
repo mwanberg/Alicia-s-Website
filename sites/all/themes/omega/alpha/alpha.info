@@ -212,9 +212,9 @@ settings[alpha_region_footer_columns] = '12'
 settings[alpha_region_footer_suffix] = ''
 settings[alpha_region_footer_weight] = ''
 settings[alpha_region_footer_css] = ''
-; Information added by drupal.org packaging script on 2011-08-19
-version = "7.x-3.0-rc5"
+; Information added by drupal.org packaging script on 2011-08-23
+version = "7.x-3.0"
 core = "7.x"
 project = "omega"
-datestamp = "1313771820"
+datestamp = "1314088930"
 
